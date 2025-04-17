@@ -139,7 +139,6 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="ChangeTextColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Iej-Mp-r5l"/>
-                                    <action selector="changeBackgroundColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o7m-U4-5BU"/>
                                 </connections>
                             </button>
                         </subviews>

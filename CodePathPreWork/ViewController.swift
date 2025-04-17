@@ -43,17 +43,16 @@ class ViewController: UIViewController {
     @IBOutlet weak var backgroundButtonLabel: UIButton!
     @IBOutlet weak var brightnessLabel: UILabel!
     @IBOutlet weak var jobLabel: UILabel!
+    
+    
     @IBAction func ChangeTextColor(_ sender: UIButton) {
-        let randomColor = changeColor()
-        UIView.animate(withDuration: 0.5) {
+        let randomColor = changeTextColor()
+       
             self.jobLabel.textColor = randomColor
             self.brightnessLabel.textColor = randomColor
-            self.collegeLabel.textColor = randomColor
             self.backgroundButtonLabel.setTitleColor(randomColor, for: .normal)
+            self.collegeLabel.textColor = randomColor
             self.nameLabel.textColor = randomColor
-            
-            
-        }
     }
     
     func changeColor() -> UIColor{
@@ -64,7 +63,14 @@ class ViewController: UIViewController {
 
            return UIColor(red: red, green: green, blue: blue, alpha: 0.5)
        }
-    
+    func changeTextColor() -> UIColor {
+        return UIColor(
+            red: CGFloat.random(in: 0...1),
+            green: CGFloat.random(in: 0...1),
+            blue: CGFloat.random(in: 0...1),
+            alpha: 1.0
+        )
+    }
     
 }
 
