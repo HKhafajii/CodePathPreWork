@@ -11,17 +11,28 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        nameTag.textColor = .white
+        textBackground.layer.cornerRadius = 12
+        textBackground2.layer.cornerRadius = 12
+        
     }
-
+  
+    
+    @IBAction func opacitySlider(_ sender: UISlider) {
+        mainBackground.alpha = CGFloat(sender.value)
+    }
     
     
-    @IBOutlet weak var nameTag: UILabel!
+    @IBOutlet weak var textBackground2: UIView!
+    @IBOutlet var mainBackground: UIView!
+    
+    @IBOutlet weak var textBackground: UIView!
     
     
     @IBAction func changeBackgroundColor(_ sender: UIButton) {
         let randomColor = changeColor()
-        view.backgroundColor = randomColor
+        UIView.animate(withDuration: 0.5) {
+            self.view.backgroundColor = randomColor
+        }
     }
     func changeColor() -> UIColor{
 
