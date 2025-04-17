@@ -129,7 +129,7 @@
                                         <color key="backgroundColor" systemColor="tertiaryLabelColor"/>
                                     </backgroundConfiguration>
                                     <attributedString key="attributedTitle">
-                                        <fragment content="Change Background">
+                                        <fragment content="Change Text Color">
                                             <attributes>
                                                 <font key="NSFont" size="15" name="Helvetica"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
