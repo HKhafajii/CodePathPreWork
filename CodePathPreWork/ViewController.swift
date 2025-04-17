@@ -34,6 +34,28 @@ class ViewController: UIViewController {
             self.view.backgroundColor = randomColor
         }
     }
+    
+    @IBOutlet weak var nameLabel: UILabel!
+  
+    @IBOutlet weak var textButtonLabel: UIButton!
+    @IBOutlet weak var collegeLabel: UILabel!
+    
+    @IBOutlet weak var backgroundButtonLabel: UIButton!
+    @IBOutlet weak var brightnessLabel: UILabel!
+    @IBOutlet weak var jobLabel: UILabel!
+    @IBAction func ChangeTextColor(_ sender: UIButton) {
+        let randomColor = changeColor()
+        UIView.animate(withDuration: 0.5) {
+            self.jobLabel.textColor = randomColor
+            self.brightnessLabel.textColor = randomColor
+            self.collegeLabel.textColor = randomColor
+            self.backgroundButtonLabel.setTitleColor(randomColor, for: .normal)
+            self.nameLabel.textColor = randomColor
+            
+            
+        }
+    }
+    
     func changeColor() -> UIColor{
 
            let red = CGFloat.random(in: 0...1)

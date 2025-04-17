@@ -119,14 +119,43 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="tableSeparatorDarkColor"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="5G9-ud-uwL">
+                                <rect key="frame" x="91" y="727" width="211" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" cornerStyle="medium">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" systemColor="tertiaryLabelColor"/>
+                                    </backgroundConfiguration>
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Change Background">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="ChangeTextColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Iej-Mp-r5l"/>
+                                    <action selector="changeBackgroundColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o7m-U4-5BU"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.40000000000000002" green="0.56862745098039214" blue="0.44313725490196076" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <connections>
+                        <outlet property="backgroundButtonLabel" destination="hSd-m8-utc" id="5ok-xL-0XL"/>
+                        <outlet property="brightnessLabel" destination="igC-qs-5eI" id="S4H-Ck-GK3"/>
+                        <outlet property="collegeLabel" destination="hcD-iI-HU4" id="vdS-t8-Kcd"/>
+                        <outlet property="jobLabel" destination="k5N-FH-6p8" id="T5w-hL-vFC"/>
                         <outlet property="mainBackground" destination="8bC-Xf-vdC" id="OHy-t3-aFZ"/>
+                        <outlet property="nameLabel" destination="y30-Uq-9VS" id="Nbf-Yh-Par"/>
                         <outlet property="textBackground" destination="Tzs-BH-coO" id="pW6-TO-c3g"/>
                         <outlet property="textBackground2" destination="gYU-Mw-bWr" id="Uxn-jA-CD0"/>
+                        <outlet property="textButtonLabel" destination="5G9-ud-uwL" id="ttL-NG-YQB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
