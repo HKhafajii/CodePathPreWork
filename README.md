@@ -19,6 +19,17 @@ https://github.com/user-attachments/assets/e27c5af1-fc29-4428-8ec8-80cb76652ad3
 
 
 ## App Brainstorming (Step 4)
+LinkedIn:
+ - Really good job application system
+ - Showing mutual connections as 2nd or 3rd
+   
+Discord:
+ - Switching over call from phone to computer
+ - Notifications when someone is online or streaming a game
+
+TheCut:
+ - Appointment Availability shown
+ - Can handle payments in app so no need to pay in person
 
 ## Notes
 
