@@ -15,7 +15,7 @@ The following **required** functionality is completed:
  
 ## Video Walkthrough
 
-[![Video Title](https://img.youtube.com/vi/ipeogRsODfs)](https://youtube.com/shorts/ipeogRsODfs)
+
 
 
 ## App Brainstorming (Step 4)
