@@ -31,6 +31,8 @@ TheCut:
  - Appointment Availability shown
  - Can handle payments in app so no need to pay in person
 
+An app idea I'd like to continue would be my MeaMemoria application. Its an application that takes an image and allows you to add a lot of customization to photo albums adding voice recordings, music, and more. I'd like to implement a feature that includes adding music to albums as a vibe, customizing the layout to your liking, and also having shared customizable albums with someone.
+
 ## Notes
 
 Describe any challenges encountered while building the app.
