@@ -15,9 +15,8 @@ The following **required** functionality is completed:
  
 ## Video Walkthrough
 
-<a href="https://studio.youtube.com/video/ipeogRsODfs/edit"> </a>
+[![Video Title](https://img.youtube.com/vi/ipeogRsODfs)](https://youtube.com/shorts/ipeogRsODfs)
 
-[Guide]](https://www.youtube.com/watch?v=GA92eKlYio4) .
 
 ## App Brainstorming (Step 4)
 
