@@ -15,7 +15,7 @@ The following **required** functionality is completed:
  
 ## Video Walkthrough
 
-
+https://github.com/user-attachments/assets/e27c5af1-fc29-4428-8ec8-80cb76652ad3
 
 
 ## App Brainstorming (Step 4)
